@@ -17,6 +17,7 @@ export const PlayerHistory = () => {
   useEffect(() => {
     checkWinningTickets(playerHistory);
     calculateWinningAmount(playerHistory);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

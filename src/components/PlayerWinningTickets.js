@@ -33,6 +33,7 @@ export const PlayerWinningTickets = ({ playerHistory }) => {
 
   useEffect(() => {
     updateSummary(playerHistory);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   if (uniqueNumbers && uniqueNumbers.length === 0) {
