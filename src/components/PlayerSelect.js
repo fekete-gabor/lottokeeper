@@ -22,7 +22,7 @@ export const PlayerSelect = () => {
     e.preventDefault();
 
     const playerType = e.currentTarget.dataset.value;
-    console.log(playerType);
+
     if (playerType === "player") {
       const payload = {
         ...player,
