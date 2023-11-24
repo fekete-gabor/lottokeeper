@@ -88,7 +88,10 @@ export const PlayerSelect = () => {
         <div
           className="h-full w-full lg:h-[500px] lg:max-w-[500px] lg:shadow-sm lg:shadow-blue-500/40 lg:rounded-full overflow-hidden flex justify-center items-center text-center ease-in-out duration-300 lg:hover:shadow-orange-800/60 lg:hover:shadow-xl bg-slate-300 lg:hover:-translate-y-2 border-solid border-4 border-black lg:border-0 relative select-none cursor-pointer"
           data-value="operator"
-          onClick={() => setActive("operator")}
+          onClick={(e) => {
+            setActive("operator");
+            onSubmit(e);
+          }}
         >
           <img
             src={operatorBG}
