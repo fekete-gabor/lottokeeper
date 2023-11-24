@@ -10,7 +10,7 @@ export const AllTickets = ({ array, compareArray }) => {
   }
 
   return (
-    <div className="my-12 player-history-grid w-screen gap-y-4">
+    <div className="mt-12 player-history-grid w-screen gap-y-4">
       {array.map((tickets, i) => {
         return (
           <div key={i}>
