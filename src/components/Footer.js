@@ -2,7 +2,7 @@ export const Footer = () => {
   const date = new Date().getFullYear();
 
   return (
-    <footer className="bg-slate-800 w-full p-4 flex justify-center">
+    <footer className="mt-12 bg-slate-800 w-full p-4 flex justify-center">
       <div className="">
         <h2 className="text-white">
           created by{" "}
